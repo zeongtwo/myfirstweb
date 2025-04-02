@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+.top-bar ul {
+    display: flex;
+}
+
+.header {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    border-bottom: solid 1px gray;
+
+}
+nav ul{
+    display: flex;
+}
+
+.mymusic {
+    color: gray;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
